@@ -91,12 +91,12 @@ As of June/2019, **GLquery** can perform the following queries:
 
 ## 6. OBSERVATIONS:
     
-- If you haven't already, you must create a variable named 'my_key_path' to access Google's environment (.json file): <br/> 
+- If you haven't already, you must create a variable named 'my_key_path' to access Google's environment (.json file): 
 ```python
 my_key_path = "/users/NAME_OF_YOUR_FOLDER_HERE/NAME_OF_YOUR_KEY_HERE.json"
 ```
 
-- If you haven't already, you must create a variable named 'my_output_path' to define your output folder (directory where outputs will be saved): e.g. 
+- If you haven't already, you must create a variable named 'my_output_path' to define your output folder (directory where outputs will be saved): 
 ```python 
 my_output_path = "/Users/NAME_OF_YOUR_FOLDER_HERE"
 ```
