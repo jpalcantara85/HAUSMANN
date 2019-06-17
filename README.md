@@ -68,3 +68,9 @@ As of June/2019, GLquery can perform the following queries:
 ## 4. IMPORTANT CONCEPTS: (under construction)
 
 - Publication date x filing date x grant date: patent documents are published (publication date) by patent offices usually 18 months after the date on which a patent application was first filed (filing data) or once a patent has been granted (grant date) for the invention claimed by the patent applicant. Queries in this script always take as reference publication date.
+
+## 5. INSTALLATION
+
+You can install GLquery with the following command in your console:
+
+pip install -e git+https://github.com/SohierDane/BigQuery_Helper#egg=bq_helper
