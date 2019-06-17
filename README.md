@@ -8,15 +8,15 @@ Instead of individually running e.g. 10 separate queries there, you can use a on
 
 Make sure the packages below are installed in your working directory:
 
-- HAUSMANN: ```python pip install -e git+https://github.com/jpalcantara85/HAUSMANN#egg=HAUSMANN```
+- HAUSMANN: ```pip install -e git+https://github.com/jpalcantara85/HAUSMANN#egg=HAUSMANN```
 
-- bq_helper: ```python pip install -e git+https://github.com/SohierDane/BigQuery_Helper#egg=bq_helper```
+- bq_helper: ```pip install -e git+https://github.com/SohierDane/BigQuery_Helper#egg=bq_helper```
 
 ## 3. USAGE
 
-After installing the necessary packages, type: ```python from HAUSMANN import GLquery, GLquery_examples ```
+After installing the necessary packages, type: ```from HAUSMANN import GLquery, GLquery_examples ```
 
-Then, to learn more about **GLquery** type: ```python GLquery_examples()```
+Then, to learn more about **GLquery** type: ```GLquery_examples()```
 
 ## 3. FUNCTION PARAMETERS
 
@@ -74,9 +74,9 @@ As of June/2019, GLquery can perform the following queries:
 	
 ## 5. OBSERVATIONS:
     
-- If you haven't already, you must create a variable named 'my_key_path' to access Google's environment (.json file): <br/> ```python e.g. my_key_path = "/Users/jpalcantara/Patents/My Project 1-1e3a04e30599.json"```
+- If you haven't already, you must create a variable named 'my_key_path' to access Google's environment (.json file): <br/> ```e.g. my_key_path = "/Users/jpalcantara/Patents/My Project 1-1e3a04e30599.json"```
 
-- If you haven't already, you must create a variable named 'my_output_path' to define your output folder (directory where outputs will be saved): ```python e.g. my_output_path = "/Users/jpalcantara/Patents/"```
+- If you haven't already, you must create a variable named 'my_output_path' to define your output folder (directory where outputs will be saved): ```e.g. my_output_path = "/Users/jpalcantara/Patents/"```
 
 ## 6. IMPORTANT CONCEPTS: (under permanent construction)
 
