@@ -7,7 +7,7 @@ Instead of individually running e.g. 10 separate queries there, you can use a on
 
 ## 2. INSTALLATION
 
-Make sure the packages below are installed in your working directory:
+Make sure the packages below are properly installed:
 
 - HAUSMANN: ```pip install -e git+https://github.com/jpalcantara85/HAUSMANN#egg=HAUSMANN```
 
