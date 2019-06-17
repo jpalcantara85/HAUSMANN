@@ -91,7 +91,8 @@ As of June/2019, **GLquery** can perform the following queries:
 
 ## 6. OBSERVATIONS:
     
-- If you haven't already, you must create a variable named 'my_key_path' to access Google's environment (.json file): <br/> e.g. ```python
+- If you haven't already, you must create a variable named 'my_key_path' to access Google's environment (.json file): <br/> e.g. 
+```python
 my_key_path = "/Users/jpalcantara/Patents/My Project 1-1e3a04e30599.json"
 ```
 
