@@ -9,9 +9,15 @@ Instead of individually running e.g. 10 separate queries there, you can use a on
 
 Make sure the packages below are properly installed:
 
-- HAUSMANN: ```pip install -e git+https://github.com/jpalcantara85/HAUSMANN#egg=HAUSMANN```
+- HAUSMANN: 
+```javascript
+pip install -e git+https://github.com/jpalcantara85/HAUSMANN#egg=HAUSMANN
+```
 
-- bq_helper: ```pip install -e git+https://github.com/SohierDane/BigQuery_Helper#egg=bq_helper```
+- bq_helper: 
+```javascript
+pip install -e git+https://github.com/SohierDane/BigQuery_Helper#egg=bq_helper
+```
 
 
 ## 3. USAGE
