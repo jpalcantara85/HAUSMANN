@@ -6,11 +6,17 @@ Instead of individually running e.g. 10 separate queries there, you can use a on
 
 ## 2. INSTALLATION
 
-- You can install GLquery with the following command in your console: <br/>
+- Install GLquery with the following command in your console: <br/>
 *pip install -e git+https://github.com/jpalcantara85/HAUSMANN#egg=HAUSMANN*
 
-- You might need to install the following package before running this script: 
+- You might need to install the following package before running GLquery: 
 <br/> *pip install -e git+https://github.com/SohierDane/BigQuery_Helper#egg=bq_helper*
+
+## 3. USAGE
+
+After installing the necessary packages, type the following:
+
+- from HAUSMANN import GLquery, GLquery_examples
 
 ## 3. FUNCTION PARAMETERS
 
