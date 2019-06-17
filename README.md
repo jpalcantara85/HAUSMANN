@@ -22,12 +22,22 @@ pip install -e git+https://github.com/SohierDane/BigQuery_Helper#egg=bq_helper
 
 ## 3. USAGE
 
-After installing the necessary packages, type: 
+1) After installing the necessary packages, type: 
 ```python
 from HAUSMANN import GLquery, GLquery_examples 
 ```
 
-Then, to learn more about **GLquery** type: 
+2) Create a variable named 'my_key_path' to access Google's environment (.json file): 
+```python
+my_key_path = "/users/NAME_OF_YOUR_FOLDER_HERE/NAME_OF_YOUR_KEY_HERE.json"
+```
+
+3) Create a variable named 'my_output_path' to define your output folder (directory where outputs will be saved): 
+```python 
+my_output_path = "/Users/NAME_OF_YOUR_FOLDER_HERE"
+```
+
+4) To learn more about **GLquery** type: 
 ```python
 GLquery_examples()
 ```
@@ -89,19 +99,6 @@ As of June/2019, **GLquery** can perform the following queries:
 - *query10: Number of patent applications with keyword K in country Z (necessary arguments: country and keyword)*
 
 
-## 6. OBSERVATIONS:
-    
-- If you haven't already, you must create a variable named 'my_key_path' to access Google's environment (.json file): 
-```python
-my_key_path = "/users/NAME_OF_YOUR_FOLDER_HERE/NAME_OF_YOUR_KEY_HERE.json"
-```
-
-- If you haven't already, you must create a variable named 'my_output_path' to define your output folder (directory where outputs will be saved): 
-```python 
-my_output_path = "/Users/NAME_OF_YOUR_FOLDER_HERE"
-```
-
-
-## 7. IMPORTANT CONCEPTS: (under permanent construction)
+## 6. CONCEPTS: (under permanent construction)
 
 - *Publication date x filing date x grant date*: patent documents are published (publication date) by patent offices usually 18 months after the date on which a patent application was first filed (filing data) or once a patent has been granted (grant date) for the invention claimed by the patent applicant. Queries in this script always take as reference publication date.
