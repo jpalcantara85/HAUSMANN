@@ -8,7 +8,7 @@ Instead of individually running e.g. 10 separate queries there, you can use a on
 
 Make sure the packages below are installed in your working directory:
 
-- GLquery: ```python pip install -e git+https://github.com/jpalcantara85/HAUSMANN#egg=HAUSMANN```
+- HAUSMANN: ```python pip install -e git+https://github.com/jpalcantara85/HAUSMANN#egg=HAUSMANN```
 
 - bq_helper: ```python pip install -e git+https://github.com/SohierDane/BigQuery_Helper#egg=bq_helper```
 
