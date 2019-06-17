@@ -40,6 +40,8 @@ my_output_path = "/Users/NAME_OF_YOUR_FOLDER_HERE"
 4) To learn more about **GLquery** type: 
 ```python
 GLquery_examples()
+
+help(GLquery)
 ```
 
 
