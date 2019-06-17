@@ -18,7 +18,7 @@ After installing the necessary packages, type: ```from HAUSMANN import GLquery, 
 
 Then, to learn more about **GLquery** type: ```GLquery_examples()```
 
-## 3. FUNCTION PARAMETERS
+## 4. FUNCTION PARAMETERS
 
 **GLquery** takes the following arguments:
         
@@ -48,7 +48,7 @@ Then, to learn more about **GLquery** type: ```GLquery_examples()```
    
 - ask_before_running (True or False) = given a query size (in GB), asks user input before running the query (default is False)
     
-## 4. QUERIES
+## 5. QUERIES
 
 As of June/2019, GLquery can perform the following queries:
         
@@ -72,12 +72,12 @@ As of June/2019, GLquery can perform the following queries:
     
 - query10: Number of patent applications with keyword K in country Z (necessary arguments: country and keyword)
 	
-## 5. OBSERVATIONS:
+## 6. OBSERVATIONS:
     
 - If you haven't already, you must create a variable named 'my_key_path' to access Google's environment (.json file): <br/> ```e.g. my_key_path = "/Users/jpalcantara/Patents/My Project 1-1e3a04e30599.json"```
 
 - If you haven't already, you must create a variable named 'my_output_path' to define your output folder (directory where outputs will be saved): ```e.g. my_output_path = "/Users/jpalcantara/Patents/"```
 
-## 6. IMPORTANT CONCEPTS: (under permanent construction)
+## 7. IMPORTANT CONCEPTS: (under permanent construction)
 
 - Publication date x filing date x grant date: patent documents are published (publication date) by patent offices usually 18 months after the date on which a patent application was first filed (filing data) or once a patent has been granted (grant date) for the invention claimed by the patent applicant. Queries in this script always take as reference publication date.
