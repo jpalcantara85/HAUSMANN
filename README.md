@@ -16,9 +16,15 @@ Make sure the packages below are properly installed:
 
 ## 3. USAGE
 
-After installing the necessary packages, type: ```from HAUSMANN import GLquery, GLquery_examples ```
+After installing the necessary packages, type: 
+```python
+from HAUSMANN import GLquery, GLquery_examples 
+```
 
-Then, to learn more about **GLquery** type: ```GLquery_examples()```
+Then, to learn more about **GLquery** type: 
+```python
+GLquery_examples()
+```
 
 
 ## 4. FUNCTION PARAMETERS
