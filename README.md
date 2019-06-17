@@ -73,4 +73,4 @@ As of June/2019, GLquery can perform the following queries:
 
 You can install GLquery with the following command in your console:
 
-pip install -e git+https://github.com/SohierDane/BigQuery_Helper#egg=bq_helper
+pip install -e git+https://github.com/jpalcantara85/HAUSMANN#egg=HAUSMANN
