@@ -25,56 +25,56 @@ Then, to learn more about **GLquery** type: ```GLquery_examples()```
 
 **GLquery** takes the following arguments:
         
-- query (string): choose among one of the options in the next section (see below) (default is "query1")
+- *query (string): choose among one of the options in the next section (see below) (default is "query1")*
         
-- country (string) = format "LL" (default is "US")
+- *country (string) = format "LL" (default is "US")*
     
-- start_year (string) = format "YYYY" (default is "1790")
+- *start_year (string) = format "YYYY" (default is "1790")*
 
-- end_year (string) = format "YYYY" (default is "2019")
+- *end_year (string) = format "YYYY" (default is "2019")*
      
-- min_count (string) = minimum threshold (default is "100")
+- *min_count (string) = minimum threshold (default is "100")*
 
-- kind_code (string) = format "LN", see kind codes here: https://www.cas.org/support/documentation/references/patkind (default is "B2")
+- *kind_code (string) = format "LN", see kind codes here: https://www.cas.org/support/documentation/references/patkind (default is "B2")*
 
-- cpc_code (string) = formant "LNNL", see CPC codes here: https://www.uspto.gov/web/patents/classification/cpc/html/cpc.html (default is "A63F")
+- *cpc_code (string) = formant "LNNL", see CPC codes here: https://www.uspto.gov/web/patents/classification/cpc/html/cpc.html (default is "A63F")*
    
-- assignee (string) = any format (case sensitive) (default is "President and Fellows of Harvard College")
+- *assignee (string) = any format (case sensitive) (default is "President and Fellows of Harvard College")*
 
-- keyword (string) = any format (case sensitive) (default is "internet of things")
+- *keyword (string) = any format (case sensitive) (default is "internet of things")*
     
-- budget (number) = any number (default is 1.000 GB) (queries above value 'budget' will not run; queries below 'budget' will use only the minimum amount of memory necessary to run the query, not the full value of 'budget') 
+- *budget (number) = any number (default is 1.000 GB) (queries above value 'budget' will not run; queries below 'budget' will use only the minimum amount of memory necessary to run the query, not the full value of 'budget')*
       
-- output_to_csv (True or False) = output results as .csv file to directory defined at 'my_output_path' (default is False)
+- *output_to_csv (True or False) = output results as .csv file to directory defined at 'my_output_path' (default is False)*
    
-- plot (True of False) = plot results as .pdf file to directory defined at 'my_output_path' (default is False) (implemented for queries 1, 2, 3, 10)
+- *plot (True of False) = plot results as .pdf file to directory defined at 'my_output_path' (default is False) (implemented for queries 1, 2, 3, 10)*
    
-- ask_before_running (True or False) = given a query size (in GB), asks user input before running the query (default is False)
+- *ask_before_running (True or False) = given a query size (in GB), asks user input before running the query (default is False)*
     
     
 ## 5. QUERIES
 
 As of June/2019, GLquery can perform the following queries:
         
-- query1: Number of patent applications by country (takes no inputs)
+- *query1: Number of patent applications by country (takes no inputs)*
         
-- query2: Number of patents published between years X and Y by country (necessary arguments: start_year and end_year)
+- *query2: Number of patents published between years X and Y by country (necessary arguments: start_year and end_year)*
       
-- query3: Number of patents published to country Z between years X and Y (necessary arguments: start_year, end_year and country)
+- *query3: Number of patents published to country Z between years X and Y (necessary arguments: start_year, end_year and country)*
             
-- query4: Which patents country Z published between years X and Y? (necessary arguments: start_year, end_year, country, kind_code)
+- *query4: Which patents country Z published between years X and Y? (necessary arguments: start_year, end_year, country, kind_code)*
             
-- query5: Most common patenting technology areas by year (takes no inputs)
+- *query5: Most common patenting technology areas by year (takes no inputs)*
             
-- query6: Most common patenting technology areas in country Z between years X and Y (necessary arguments: start_year, end_year and country)
+- *query6: Most common patenting technology areas in country Z between years X and Y (necessary arguments: start_year, end_year and country)*
             
-- query7: Inventors with over N patents by country (necessary arguments: min_count)
+- *query7: Inventors with over N patents by country (necessary arguments: min_count)*
             
-- query8: Patent landscaping of technology T between years X and Y" (necessary arguments: start_year, end_year, min_count and cpc_code) (this query returns patents, firms and countries associated with technology T)
+- *query8: Patent landscaping of technology T between years X and Y" (necessary arguments: start_year, end_year, min_count and cpc_code) (this query returns patents, firms and countries associated with technology T)*
             
-- query9: Which firms is assignee A citing in their patents? (necessary arguments: assignee)
+- *query9: Which firms is assignee A citing in their patents? (necessary arguments: assignee)*
     
-- query10: Number of patent applications with keyword K in country Z (necessary arguments: country and keyword)
+- *query10: Number of patent applications with keyword K in country Z (necessary arguments: country and keyword)*
 
 
 ## 6. OBSERVATIONS:
@@ -86,4 +86,4 @@ As of June/2019, GLquery can perform the following queries:
 
 ## 7. IMPORTANT CONCEPTS: (under permanent construction)
 
-- Publication date x filing date x grant date: patent documents are published (publication date) by patent offices usually 18 months after the date on which a patent application was first filed (filing data) or once a patent has been granted (grant date) for the invention claimed by the patent applicant. Queries in this script always take as reference publication date.
+- *Publication date x filing date x grant date*: patent documents are published (publication date) by patent offices usually 18 months after the date on which a patent application was first filed (filing data) or once a patent has been granted (grant date) for the invention claimed by the patent applicant. Queries in this script always take as reference publication date.
