@@ -54,7 +54,7 @@ Then, to learn more about **GLquery** type: ```GLquery_examples()```
     
 ## 5. QUERIES
 
-As of June/2019, GLquery can perform the following queries:
+As of June/2019, **GLquery** can perform the following queries:
         
 - *query1: Number of patent applications by country (takes no inputs)*
         
