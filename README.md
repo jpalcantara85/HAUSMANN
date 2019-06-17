@@ -62,7 +62,7 @@ GLquery_examples()
 - *plot (True of False) = plot results as .pdf file to directory defined at 'my_output_path' (default is False) (implemented for queries 1, 2, 3, 10)*
    
 - *ask_before_running (True or False) = given a query size (in GB), asks user input before running the query (default is False)*
-    
+
     
 ## 5. QUERIES
 
@@ -91,9 +91,14 @@ As of June/2019, **GLquery** can perform the following queries:
 
 ## 6. OBSERVATIONS:
     
-- If you haven't already, you must create a variable named 'my_key_path' to access Google's environment (.json file): <br/> ```e.g. my_key_path = "/Users/jpalcantara/Patents/My Project 1-1e3a04e30599.json"```
+- If you haven't already, you must create a variable named 'my_key_path' to access Google's environment (.json file): <br/> e.g. ```python
+my_key_path = "/Users/jpalcantara/Patents/My Project 1-1e3a04e30599.json"
+```
 
-- If you haven't already, you must create a variable named 'my_output_path' to define your output folder (directory where outputs will be saved): ```e.g. my_output_path = "/Users/jpalcantara/Patents/"```
+- If you haven't already, you must create a variable named 'my_output_path' to define your output folder (directory where outputs will be saved): e.g. 
+```python 
+my_output_path = "/Users/jpalcantara/Patents/"
+```
 
 
 ## 7. IMPORTANT CONCEPTS: (under permanent construction)
