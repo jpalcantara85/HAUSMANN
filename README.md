@@ -4,6 +4,8 @@ The **GROWTH LAB QUERY** (GLquery) is a local script that runs cloud-based queri
 
 Instead of individually running e.g. 10 separate queries there, you can use a one-line command here - all you need is to change the arguments of the function.
 
+**GLquery** is the first of a wider set of tools (under development...) called .... (shortened to HAUSMANN).
+
 
 ## 2. INSTALLATION
 
@@ -27,21 +29,20 @@ pip install -e git+https://github.com/SohierDane/BigQuery_Helper#egg=bq_helper
 from HAUSMANN import GLquery, GLquery_examples 
 ```
 
-2) Create a variable named *'my_key_path'* to access Google's environment (.json file): 
+2) Then, type the following (with the necessary modifications) to access Google's environment (.json file): 
 ```python
-my_key_path = "/users/[...]/NAME_OF_YOUR_KEY_HERE.json"
+
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/users/[...]/NAME_OF_YOUR_KEY_HERE.json"
+
 ```
 
-3) Create a variable named *'my_output_path'* to define your output folder (directory where outputs will be saved): 
-```python 
-my_output_path = "/Users/NAME_OF_YOUR_FOLDER_HERE"
-```
-
-4) To learn more about **GLquery** type: 
+3) To learn more about **GLquery** type: 
 ```python
-GLquery_examples()
 
 help(GLquery)
+
+GLquery_examples()
+
 ```
 
 
@@ -69,9 +70,9 @@ help(GLquery)
     
 - *budget (number) = any number (default is 1.000 GB) (queries above value 'budget' will not run; queries below 'budget' will use only the minimum amount of memory necessary to run the query, not the full value of 'budget')*
       
-- *output_to_csv (True or False) = output results as .csv file to directory defined at 'my_output_path' (default is False)*
+- *output_to_csv (True or False) = output results as .csv file to your current working directory (default is False)*
    
-- *plot (True of False) = plot results as .pdf file to directory defined at 'my_output_path' (default is False) (implemented for queries 1, 2, 3, 10)*
+- *plot (True of False) = plot results as .pdf file to your current working directory (default is False) (implemented for queries 1, 2, 3, 10)*
    
 - *ask_before_running (True or False) = given a query size (in GB), asks user input before running the query (default is False)*
 
