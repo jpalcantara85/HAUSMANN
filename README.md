@@ -1,8 +1,8 @@
 ## 1. INTRODUCTION
 
-The **GROWTH LAB QUERY** (GLquery) is a local script that runs cloud-based queries regarding patents on Google BigQuery's environment.
+The **GROWTH LAB QUERY** (GLquery) is a local python script that runs cloud-based queries about patent analysis on Google BigQuery's environment.
 
-Why should you use **GLquery?** Instead of individually running N separate queries on Google's environment, you can use **GLquery** to run all that with a one-line command - all you need to do is change the function parameters.
+Why should you use **GLquery?** Instead of individually running N separate queries on Google's environment, you can use **GLquery** to easily run all those with a one-line command - all you need to do is change the function parameters.
 
 **GLquery** is the first of a wider set of tools called **High-level Algorithmic Unified Set of Methods to Analyze Nontrivial Nexuses** (shortened to **H.A.U.S.M.A.N.N.**).
 
