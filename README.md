@@ -2,7 +2,7 @@
 
 The **GROWTH LAB QUERY** (GLquery) is a local script that runs cloud-based queries on Google BigQuery's environment.
 
-Instead of individually running e.g. 10 separate queries there, you can use a one-line command here - all you need is to change the arguments of the function.
+Instead of individually running e.g. 10 separate queries there, you can use a one-line command here - all you need is to change the function parameters.
 
 **GLquery** is the first of a wider set of tools called *High-level Algorithmic Unified Set of Methods to Analyze Nontrivial Nexuses* (shortened to **H.A.U.S.M.A.N.N.**).
 
