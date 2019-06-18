@@ -13,7 +13,7 @@ setuptools.setup(
     
     author_email = 'joao_alcantara@student.hks.harvard.edu',
     
-    description = 'This package runs queries on Google BigQuery',
+    description = "This package runs patent analysis queries on Google BigQuery's environment",
     
     long_description = long_description,
     
