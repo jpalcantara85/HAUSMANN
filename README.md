@@ -103,6 +103,8 @@ As of June/2019, **GLquery** can perform the following queries:
 - *query10: Number of patent applications with keyword K in country Z (necessary arguments: country and keyword)*
 
 
-## 6. CONCEPTS: (under permanent construction)
+## 6. CONCEPTS:
+
+This section is under permanent construction and presents some important patent-related definitions:
 
 - *Publication date x filing date x grant date*: patent documents are published *(publication date)* by patent offices usually 18 months after the date on which a patent application was first filed *(filing data)* or once a patent has been granted *(grant date)* for the invention claimed by the patent applicant. Queries in this script always take as reference publication date.
