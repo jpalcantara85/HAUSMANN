@@ -4,7 +4,7 @@ The **GROWTH LAB QUERY** (GLquery) is a local script that runs cloud-based queri
 
 Instead of individually running e.g. 10 separate queries there, you can use a one-line command here - all you need is to change the arguments of the function.
 
-**GLquery** is the first of a wider set of tools (under development...) called .... (shortened to HAUSMANN).
+**GLquery** is the first of a wider set of tools called .... (shortened to HAUSMANN).
 
 
 ## 2. INSTALLATION
