@@ -32,6 +32,7 @@ from HAUSMANN import GLquery, GLquery_examples
 2) Then, type the following (with the necessary modifications) to access Google's environment (.json file): 
 ```python
 
+import os
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/users/[...]/NAME_OF_YOUR_KEY_HERE.json"
 
 ```
