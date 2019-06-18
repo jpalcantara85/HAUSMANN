@@ -104,4 +104,4 @@ As of June/2019, **GLquery** can perform the following queries:
 
 ## 6. CONCEPTS: (under permanent construction)
 
-- *Publication date x filing date x grant date*: patent documents are published (publication date) by patent offices usually 18 months after the date on which a patent application was first filed (filing data) or once a patent has been granted (grant date) for the invention claimed by the patent applicant. Queries in this script always take as reference publication date.
+- *Publication date x filing date x grant date*: patent documents are published *(publication date)* by patent offices usually 18 months after the date on which a patent application was first filed *(filing data)* or once a patent has been granted *(grant date)* for the invention claimed by the patent applicant. Queries in this script always take as reference publication date.
