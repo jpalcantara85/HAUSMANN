@@ -37,7 +37,7 @@ os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/users/[...]/NAME_OF_YOUR_KEY_HE
 
 ```
 
-PS. Read this to learn how to create a key: https://cloud.google.com/iam/docs/creating-managing-service-account-keys#iam-service-account-keys-create-console
+Read this to learn how to create a key: https://cloud.google.com/iam/docs/creating-managing-service-account-keys#iam-service-account-keys-create-console
 
 3) To learn more about **GLquery** type: 
 ```python
