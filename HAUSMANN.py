@@ -153,7 +153,7 @@ As of June/2019, GLquery can perform the following queries:
             "query3": replace("""
             -- "Number of patents granted to country Z between years X and Y"
             
-            SELECT FLOOR(grant_date/10000) as datum,
+            SELECT FLOOR(publication_date/10000) as datum,
             COUNT(DISTINCT publication_number) as publications
             FROM `patents-public-data.patents.publications`
             WHERE country_code = 'ZZZZ'
