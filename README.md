@@ -2,8 +2,6 @@
 
 The **GROWTH LAB QUERY** (GLquery) is a cloud-based Python natural language processing (NPL) machine learning algorithm that performs queries on large patent text datasets on Google BigQuery's environment.
 
-Why should you use **GLquery?** Instead of individually running N separate queries on Google's environment, you can use **GLquery** to easily run several functions with a one-line command - all you need to do is change parameters.
-
 **GLquery** is the first of a wider set of tools called **High-level Algorithmic Unified Set of Methods to Analyze Nontrivial Nexuses** (shortened to **H.A.U.S.M.A.N.N.**).
 
 **IMPORTANT NOTE**: This is  the public version of **GLQuery**. The full version of **GLQuery** (with all features) is available to Growth Lab affiliates upon request.
