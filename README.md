@@ -1,11 +1,12 @@
 ## 1. INTRODUCTION
 
-The **GROWTH LAB QUERY** (GLquery) is a local python script that runs cloud-based queries about patent analysis on Google BigQuery's environment.
+The **GROWTH LAB QUERY** (GLquery) is a cloud-based Python natural language processing (NPL) machine learning algorithm that performs queries on large patent text datasets on Google BigQuery's environment.
 
-Why should you use **GLquery?** Instead of individually running N separate queries on Google's environment, you can use **GLquery** to easily run all those with a one-line command - all you need to do is change the function parameters.
+Why should you use **GLquery?** Instead of individually running N separate queries on Google's environment, you can use **GLquery** to easily run several functions with a one-line command - all you need to do is change parameters.
 
 **GLquery** is the first of a wider set of tools called **High-level Algorithmic Unified Set of Methods to Analyze Nontrivial Nexuses** (shortened to **H.A.U.S.M.A.N.N.**).
 
+**IMPORTANT NOTE**: This is  the public version of **GLQuery**. The full version of **GLQuery** (with all features) is available to Growth Lab affiliates upon request.
 
 ## 2. INSTALLATION
 
@@ -49,9 +50,9 @@ GLquery_examples()
 ```
 
 
-## 4. FUNCTION PARAMETERS
+## 4. FUNCTION PARAMETERS (PUBLIC VERSION)
 
-**GLquery** takes the following arguments:
+The public version of **GLquery** takes the following arguments:
         
 - *query (string): choose among one of the options in the next section (see below) (default is "query1")*
         
@@ -80,9 +81,9 @@ GLquery_examples()
 - *ask_before_running (True or False) = given a query size (in GB), asks user input before running the query (default is False)*
 
     
-## 5. QUERIES
+## 5. QUERIES (PUBLIC VERSION)
 
-As of June/2019, **GLquery** can perform the following queries:
+As of June/2019, the public version of **GLquery** can perform the following queries:
         
 - *query1: Number of patent applications by country (takes no inputs)*
         
@@ -103,10 +104,3 @@ As of June/2019, **GLquery** can perform the following queries:
 - *query9: Which firms is assignee A citing in their patents? (necessary arguments: assignee)*
     
 - *query10: Number of patent applications with keyword K in country Z (necessary arguments: country and keyword)*
-
-
-## 6. CONCEPTS:
-
-This section is under permanent construction and presents some important patent-related definitions:
-
-- *Publication date x filing date x grant date*: patent documents are published *(publication date)* by patent offices usually 18 months after the date on which a patent application was first filed *(filing data)* or once a patent has been granted *(grant date)* for the invention claimed by the patent applicant. Queries in this script always take as reference publication date.
